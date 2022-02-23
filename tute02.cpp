@@ -19,7 +19,7 @@ int main()
    double salary, netSalary;
    int etype, otHrs, otRate;
    cout<<"Enter Employee Type : "<<endl;
-   cin>>etype;
+   cin>> etype;
    cout<<"Enter Salary  : "<<endl;
    cin>> salary;
    cout<<"Enter OtHrs : "<<endl;
@@ -33,13 +33,13 @@ int main()
           otRate = 1500;
           break;
       default :
-         otRate = 1700;
+          otRate = 1700;
           break;
    }
 
 
    netSalary = salary + otHrs* otRate;
-   cout<<"Net Salary is = "<< netSalary<<endl;
+   cout<<"Net Salary is ="<<netSalary<<endl;
   
    return 0;
 }
